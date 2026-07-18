@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Per Andrea ❤️</title>
+<style>
+body{
+margin:0;
+font-family:Georgia,serif;
+background:linear-gradient(#071a35,#103b63,#0d5a7d);
+color:#fff;
+overflow-x:hidden;
+text-align:center;
+}
+.stars{
+position:fixed;inset:0;
+background-image:radial-gradient(white 1px,transparent 1px);
+background-size:35px 35px;
+opacity:.35;
+pointer-events:none;
+}
+.container{max-width:900px;margin:auto;padding:40px 20px;}
+h1{font-size:3em}
+button{
+padding:16px 30px;
+font-size:1.1em;
+border:none;
+border-radius:30px;
+background:#d4af37;
+cursor:pointer;
+}
+#letter{
+display:none;
+margin-top:30px;
+background:#f5e8c8;
+color:#4b2f14;
+padding:30px;
+border-radius:18px;
+line-height:1.8;
+font-size:1.2em;
+}
+img{
+display:block;
+margin:30px auto 10px;
+max-width:90%;
+border-radius:18px;
+box-shadow:0 0 20px rgba(0,0,0,.4);
+}
+.small{opacity:.85}
+</style>
+</head>
+<body>
+<div class="stars"></div>
+<div class="container">
+<h1>🏴‍☠️ Una mappa è stata ritrovata...</h1>
+<p>Solo il tesoro più prezioso può leggere questo messaggio.</p>
+
+<button onclick="showLetter()">⚓ Apri il Forziere</button>
+
+<div id="letter">
+<h2>Per Andrea ❤️</h2>
+
+<p>
+Mio dolce Andrea,<br><br>
+
+Oggi non festeggiamo soltanto il tuo compleanno.<br><br>
+
+Festeggiamo il giorno in cui il destino ha deciso di farmi incontrare il tesoro più prezioso che potessi desiderare.<br><br>
+
+Se fossi un pirata attraverserei mille oceani, sfiderei ogni tempesta e seguirei ogni stella... solo per ritrovare ancora una volta te.<br><br>
+
+Perché dopo tutti i viaggi che la vita ci farà vivere, il mio porto sicuro sarai sempre tu.<br><br>
+
+Ti auguro un compleanno pieno di sorrisi, sogni e magia.<br><br>
+
+Tra tutti i tesori dei sette mari... sceglierei sempre te.<br><br>
+
+❤️ Con tutto il mio amore,<br>
+Sebastiano
+</p>
+
+<p>
+<a target="_blank" href="https://www.youtube.com/results?search_query=Pirates+of+the+Caribbean+theme">
+🎵 Tocca qui per ascoltare la colonna sonora
+</a>
+</p>
+
+<p class="small">
+Dopo aver pubblicato questa pagina potrai sostituire il testo "INSERISCI_LA_TUA_FOTO.jpg"
+con la vostra foto oppure usare un URL pubblico dell'immagine.
+</p>
+
+<img src="INSERISCI_LA_TUA_FOTO.jpg" alt="La nostra foto">
+
+</div>
+</div>
+
+<script>
+function showLetter(){
+ document.getElementById("letter").style.display="block";
+ window.scrollTo({top:document.body.scrollHeight,behavior:"smooth"});
+}
+</script>
+</body>
+</html>
